@@ -7,6 +7,7 @@ data:
       LinkURL: null
     in_repo_config:
       enabled:
+        bachu-org/atom-hopper-system-regression: true
         bachu-org/jx3-eks-asm: true
     plank: {}
     pod_namespace: jx
@@ -19,6 +20,7 @@ data:
         required-if-present-contexts: null
         skip-unknown-contexts: false
       merge_method:
+        bachu-org/atom-hopper-system-regression: merge
         bachu-org/jx3-eks-asm: merge
       queries:
       - labels:
@@ -31,6 +33,7 @@ data:
         - needs-rebase
         repos:
         - bachu-org/jx3-eks-asm
+        - bachu-org/atom-hopper-system-regression
       - labels:
         - updatebot
         missingLabels:
@@ -41,6 +44,7 @@ data:
         - needs-rebase
         repos:
         - bachu-org/jx3-eks-asm
+        - bachu-org/atom-hopper-system-regression
       target_url: http://lighthouse-jx.54.158.32.204.nip.io/merge/status
 kind: ConfigMap
 metadata:
