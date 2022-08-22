@@ -41,7 +41,7 @@ data:
         - needs-rebase
         repos:
         - bachu-org/jx3-eks-asm
-      target_url: http://lighthouse-jx./merge/status
+      target_url: http://lighthouse-jx.54.158.32.204.nip.io/merge/status
 kind: ConfigMap
 metadata:
   creationTimestamp: null
